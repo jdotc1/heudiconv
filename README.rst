@@ -1,3 +1,13 @@
+**Reusable rules for organizing imaging datasets**
+
+This is a development fork of `HeuDiConv <https://github.com/nipy/heudiconv>`__, a heuristic-driven DICOM converter for organizing brain imaging data. Upstream uses configurable Python rules to map scanner series into directory layouts, with dcm2niix conversion, BIDS assistance, and provenance options. It is useful when study-specific naming and selection rules need to be applied consistently across datasets.
+
+**Contribution to review:** `PR #880 <https://github.com/nipy/heudiconv/pull/880>`__ proposes parsing cached conversion tables as literal data. The work focuses on reading saved conversion mappings and remains an upstream proposal.
+
+Start with the `official documentation <https://heudiconv.readthedocs.io>`__ for installation and heuristic examples, then use the workflow overview below. Upstream citations and DataLad integration notes are preserved. The `branch comparison <https://github.com/nipy/heudiconv/compare/master...jdotc1:master>`__ shows the default branch's relationship to the original project.
+
+----
+
 =============
 **HeuDiConv**
 =============
